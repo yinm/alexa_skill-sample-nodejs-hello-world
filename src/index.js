@@ -8,13 +8,13 @@ exports.handler = (event, context, callback) => {
 };
 
 const handlers = {
-  'LaunchRequest': () => {
+  'LaunchRequest': function() {
     this.emit('SayHello');
   },
-  'HelloWorldIntent': () => {
+  'HelloWorldIntent': function() {
     this.emit('SayHello');
   },
-  'SayHello': () => {
+  'SayHello': function() {
     this.emit(':tell', 'Hello World!');
   }
 };
