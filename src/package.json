@@ -1,0 +1,22 @@
+{
+  "name": "skill-sample-nodejs-hello-world",
+  "version": "1.0.0",
+  "description": "Hello world sample skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinm/alexa_skill-sample-nodejs-hello-world.git"
+  },
+  "author": "yinm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinm/alexa_skill-sample-nodejs-hello-world/issues"
+  },
+  "homepage": "https://github.com/yinm/alexa_skill-sample-nodejs-hello-world#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
+}
